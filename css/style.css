@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f6f9;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    background-color: aqua;
+    padding: 0 30px;
+}
+
+.menu-top {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-top a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-left {
+    background-color: #7386aa;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-left a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #bdc5d8;
+}
+
+.muc-dang-chon {
+    background-color: #768ab0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.muc-dang-chon p {
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.activities h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.activity-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.activity-card {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.activity-card img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.activity-card h3 {
+    margin-bottom: 10px;
+}
+
+.activity-card p {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.activity-card span {
+    color: red;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.btn-chitiet {
+    background-color: #1a2b4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.interaction-info {
+    display: flex;
+    gap: 20px;
+}
+
+.check-code, .selected-activity {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.check-code strong, .selected-activity span {
+    color: red;
+    font-size: 1.1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(225, 225, 196);
+    padding: 20px 30px;
+    margin-top: 20px;
+}
